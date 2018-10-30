@@ -1,0 +1,30 @@
+.calculator {
+    width: 180px;
+    margin: 5rem auto 0 auto;
+    border: 1px solid #c9c9c9;
+    padding: .5rem;
+    box-shadow: 0 0 .2rem 0 #c9c9c9;
+}
+
+.appear {
+    border: 1px solid #c9c9c9;
+    height: 30px;
+    margin: 0 0 .4rem 0;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.row > .button {
+    background: white;
+    border: 1px solid #c9c9c9;
+    color: #6d6d6d;
+    width: 25px;
+    text-align: center;
+    margin: .2rem;
+    padding: .5rem;
+    cursor: pointer
+}
